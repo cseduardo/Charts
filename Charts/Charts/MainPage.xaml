@@ -2,12 +2,30 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:Charts"
-             x:Class="Charts.MainPage">
+             x:Class="Charts.MainPage"
+             xmlns:forms="clr-namespace:Microcharts.Forms;assembly=Microcharts.Forms">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <ScrollView>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                </Grid.RowDefinitions>
+                <forms:ChartView x:Name="Grafica1" HeightRequest="250" Grid.Column="0" Grid.Row="0"/>
+                <forms:ChartView x:Name="Grafica2" HeightRequest="250" Grid.Column="1" Grid.Row="0"/>
+                <forms:ChartView x:Name="Grafica3" HeightRequest="250" Grid.Column="0" Grid.Row="1"/>
+                <forms:ChartView x:Name="Grafica4" HeightRequest="250" Grid.Column="1" Grid.Row="1"/>
+                <forms:ChartView x:Name="Grafica5" HeightRequest="250" Grid.Column="0" Grid.Row="2"/>
+                <forms:ChartView x:Name="Grafica6" HeightRequest="250" Grid.Column="1" Grid.Row="2"/>
+            </Grid>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2009
+VisualStudioVersion = 15.0.27004.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Charts.Android", "Charts\Charts.Android\Charts.Android.csproj", "{AFD6BD93-30A3-4877-8D7C-5998CA7AC9C0}"
 EndProject
@@ -195,7 +195,9 @@ Global
 		{994F9093-E8E9-419D-AB3A-872D80456AD4}.AppStore|x86.ActiveCfg = Release|x86
 		{994F9093-E8E9-419D-AB3A-872D80456AD4}.AppStore|x86.Build.0 = Release|x86
 		{994F9093-E8E9-419D-AB3A-872D80456AD4}.AppStore|x86.Deploy.0 = Release|x86
-		{994F9093-E8E9-419D-AB3A-872D80456AD4}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{994F9093-E8E9-419D-AB3A-872D80456AD4}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{994F9093-E8E9-419D-AB3A-872D80456AD4}.Debug|Any CPU.Build.0 = Debug|x64
+		{994F9093-E8E9-419D-AB3A-872D80456AD4}.Debug|Any CPU.Deploy.0 = Debug|x64
 		{994F9093-E8E9-419D-AB3A-872D80456AD4}.Debug|ARM.ActiveCfg = Debug|ARM
 		{994F9093-E8E9-419D-AB3A-872D80456AD4}.Debug|ARM.Build.0 = Debug|ARM
 		{994F9093-E8E9-419D-AB3A-872D80456AD4}.Debug|ARM.Deploy.0 = Debug|ARM
@@ -236,6 +238,7 @@ Global
 		{BBDB65AF-5149-49EF-9CD9-9997C5BC14D1}.AppStore|x64.ActiveCfg = AppStore|iPhone
 		{BBDB65AF-5149-49EF-9CD9-9997C5BC14D1}.AppStore|x86.ActiveCfg = AppStore|iPhone
 		{BBDB65AF-5149-49EF-9CD9-9997C5BC14D1}.Debug|Any CPU.ActiveCfg = Debug|iPhoneSimulator
+		{BBDB65AF-5149-49EF-9CD9-9997C5BC14D1}.Debug|Any CPU.Build.0 = Debug|iPhoneSimulator
 		{BBDB65AF-5149-49EF-9CD9-9997C5BC14D1}.Debug|ARM.ActiveCfg = Debug|iPhone
 		{BBDB65AF-5149-49EF-9CD9-9997C5BC14D1}.Debug|iPhone.ActiveCfg = Debug|iPhone
 		{BBDB65AF-5149-49EF-9CD9-9997C5BC14D1}.Debug|iPhone.Build.0 = Debug|iPhone
